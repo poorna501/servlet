@@ -285,7 +285,7 @@ $(document).ready(function() {
 	$('.introjs-prevbutton').hide();
 	$('.introjs-nextbutton').hide();
 });
-function firstStep() {
+/*function firstStep() {
 	$(".user-btn").remove();
 	$(".popover").hide();
 	$("#webServer").fadeTo(1000, 1, function() {
@@ -294,7 +294,7 @@ function firstStep() {
 			$("#popover" + count+"").append('<a class="introjs-button user-btn" style="display: inline-block;" onclick="firstStep1()">Next →</a>');
 		});
 	});
-}
+}*/
 
 function firstStep1() {
 	$(".user-btn").remove();
